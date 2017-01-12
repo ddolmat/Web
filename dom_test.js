@@ -38,6 +38,6 @@ delChild(colors, red);
 //미션 7 section 하위에 blue라는 클래스의 노드가 있을경우 하위의 h2 노드삭제
 var sons_of_section = document.querySelector("section");
 var blue = document.querySelectorAll(".blue");
-var h2 = document.querySelectorAll("section > h2");
+var h2 = document.querySelectorAll("section h2");
 
 if(blue.length >= 1) delChild(sons_of_section, h2);
