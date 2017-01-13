@@ -1,0 +1,50 @@
+.basket {
+  margin-top: 40px;
+}
+
+.basket ol {
+	margin: 10px;
+	padding: 10px;
+	background:#607d8b;
+	box-shadow: 5px 5px #4a555a;
+}
+
+.addWrap, .message {
+  margin-bottom:10px;
+}
+
+.controller {
+	position: fixed;
+	top: 10px;
+}
+
+.massage {
+	position:relative;
+}
+
+li{
+  line-height:1.5em;
+  margin: 1em;
+  color:white;
+}
+
+input {
+  width : 150%;
+}
+
+h3{
+	background:#a9a9a9;
+	color:#090a4c;
+	box-shadow: 5px 5px #4f4f4f;
+}
+
+body {
+	margin-top:120px;
+	background:black;
+}
+
+input {
+	background:#353a91;
+	color:#a9a9a9;
+}
+
