@@ -61,8 +61,6 @@ function executeItemNode(actionType, todoORnumber) {
 			todo_list.removeChild(index);
 			break;
 	}
-	actionType = "";
-	todoORnumber = "";
 }
 /* 
  * 3번문제는 여기에 자세히 설명을 넣으시면 됩니다.
