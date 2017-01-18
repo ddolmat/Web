@@ -27,4 +27,4 @@ button.addEventListener("click", function(){
 	console.log("button");
 });
 ```
-<br>위와같은 구조에서 최하위 child인 button을 click할 경우 console창에<br>button<br>li<br>ul<br>div<br>순으로 찍히게 된다.<br> 즉 최하위 자식에 걸린 이벤트가 최우선이고 가장 부모에 걸린 이벤트가 제일 가장나중에 실행된다.
+<br>위와같은 구조에서 최하위 child인 button을 click할 경우 console창에<br>button<br>li<br>ul<br>div<br>순으로 찍히게 된다.<br> 즉 최하위 자식에 걸린 이벤트가 최우선이고 최상위부모에 걸린 이벤트가 제일 가장나중에 실행된다.
