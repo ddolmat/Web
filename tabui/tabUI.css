@@ -1,0 +1,32 @@
+ul {
+	list-style: none;
+	padding: 0px;
+}
+nav {
+
+}
+nav > div{
+	display:inline-block;
+}
+.tab {
+
+	border-style: solid;
+	border-width: 2px 2px 2px 0px;
+	border-color: gray;
+}
+.userSNSInfo > li{
+	display: inline-block;
+}
+.mainHeader {
+	text-align: center;
+}
+
+.eleDisplayShow {
+	display: block;
+}
+section {
+	display: none;
+}
+.selectedTab {
+	background-color: orange;
+}
