@@ -1,5 +1,3 @@
-
-
 function ajax(url, id){
 	var oReq = new XMLHttpRequest();
 	var secId = id;
@@ -7,6 +5,7 @@ function ajax(url, id){
 	oReq.open("GET", url);
 	oReq.send();
 }
+
 function inputContent(){
 	var temp = JSON.parse(this.responseText);
 	var content = "<dt>"+temp["title"]+"</dt><dd>"+temp["body"]+"</dd>";
@@ -18,6 +17,13 @@ function inputContent(){
 function classSwap(oldNode, newNode, dClass) {
 	oldNode.classList.remove(dClass);
 	newNode.classList.add(dClass);
+}
+
+var urlList = {
+	"my_position" : "http://jsonplaceholder.typicode.com/posts/1",
+	"my_friend" : "http://jsonplaceholder.typicode.com/posts/2",
+	"my_theme" : "http://jsonplaceholder.typicode.com/posts/3",
+	"my_news" : "http://jsonplaceholder.typicode.com/posts/4"
 }
 
 function changeView(evt) {
@@ -33,17 +39,10 @@ function changeView(evt) {
 	ajax(urlList[secId], secId);
 }
 
-
 function displaySection(id) {
 	var dpSec = document.querySelector(".eleDisplayShow");
 	dpSec.classList.remove("eleDisplayShow");
 	document.querySelector("#"+id).classList.add("eleDisplayShow");
-}
-var urlList = {
-	"my_position" : "http://jsonplaceholder.typicode.com/posts/1",
-	"my_friend" : "http://jsonplaceholder.typicode.com/posts/2",
-	"my_theme" : "http://jsonplaceholder.typicode.com/posts/3",
-	"my_news" : "http://jsonplaceholder.typicode.com/posts/4"
 }
 
 var nav = document.querySelector(".mainView > nav");
