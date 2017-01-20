@@ -38,12 +38,6 @@ function changeView(evt) {
 	ajax(urlList[secId], inputContent);
 }
 
-function displaySection(id) {
-	var dpSec = document.querySelector(".eleDisplayShow");
-	dpSec.classList.remove("eleDisplayShow");
-	document.querySelector("#"+id).classList.add("eleDisplayShow");
-}
-
 var nav = document.querySelector(".mainView > nav");
 
 nav.addEventListener("click", changeView);
