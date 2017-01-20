@@ -1,7 +1,6 @@
-function ajax(url, id){
+function ajax(url, func){
 	var oReq = new XMLHttpRequest();
-	var secId = id;
-	oReq.addEventListener("load", inputContent);
+	oReq.addEventListener("load", func);
 	oReq.open("GET", url);
 	oReq.send();
 }
@@ -36,7 +35,7 @@ function changeView(evt) {
 	var dpSec = document.querySelector(".eleDisplayShow");
 	var newSec = document.querySelector("#"+secId);
 	classSwap(dpSec, newSec, "eleDisplayShow");
-	ajax(urlList[secId], secId);
+	ajax(urlList[secId], inputContent);
 }
 
 function displaySection(id) {
