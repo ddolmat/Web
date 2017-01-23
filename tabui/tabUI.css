@@ -13,8 +13,9 @@ nav > div{
 nav > div > span {
 	text-align: center;
 }
-.wrap {
+html {
 	position: fixed;
+	width: 800px;
 }
 .mainHeader {
 	margin-left: 100px;
