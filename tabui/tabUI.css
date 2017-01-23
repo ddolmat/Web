@@ -3,9 +3,10 @@ ul {
 	padding: 0px;
 }
 nav {
-	height:80px;
 	width:790px;
 	float:left;
+	display: flex;
+	justify-content: center;
 }
 nav > div{
 	
