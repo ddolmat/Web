@@ -8,10 +8,7 @@ nav {
 	display: flex;
 	justify-content: center;
 }
-nav > div{
-	
-}
-nav > div > span {
+nav > div {
 	text-align: center;
 }
 html {
