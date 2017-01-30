@@ -60,7 +60,7 @@ function moveLeft(div, boxNum, x, width){
 		var mod2 = mod + width;
 		setTrans(div, mod, "none");
 		setTimeout(function(){
-		setTrans(div, mod2, "All 1.5s");
+			setTrans(div, mod2, "All 1.5s");
 		}, 10);
 		return;
 	}
