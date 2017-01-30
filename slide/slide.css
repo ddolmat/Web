@@ -1,0 +1,54 @@
+.wrap{
+	left: 300px;
+	top: 200px;
+	width:600px;
+	height:400px;
+	position: relative;
+	overflow: hidden;
+}
+.box{
+	text-align: center;
+	height: 400px;
+	width: 600px;
+	position:absolute;
+}
+.basket{
+	transition: ease-in-out;
+}
+.no1{
+	background-color: red;
+}
+.no2{
+	background-color: blue;
+}
+.no3{
+	background-color: green;
+}
+.no4{
+	background-color: black;
+}
+.btn {
+	color: white;
+	background-color:rgba(0, 0, 0, 0);
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	z-index: 2;
+	top:173px;
+	border-style: none;
+	opacity: 0.3;
+	font-size: 30px;
+	font-weight: bold;
+}
+span {
+	font-size: 300px;
+	font-weight: 900;
+	color: white;
+	line-height: 150%;
+}
+#left{
+	left:10px;
+}
+#right{
+	right:10px;
+}
