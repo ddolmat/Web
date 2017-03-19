@@ -1,4 +1,5 @@
 <h1> DOM이벤트가 중첩되었을 경우</h1>
+
 ```HTML
 <div>
   <ul>
@@ -8,6 +9,7 @@
   </ul>
 </div>
 ```
+
 ```JavaScript
 var div = document.querySelector("div");
 var ul = div.querySelector("ul");
